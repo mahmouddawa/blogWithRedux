@@ -28,7 +28,6 @@ import UserHeader from './UserHeader';
   }
 
   render(){
-    console.log(this.props);
     return <div className="ui relaxed divided list">{this.renderList()}</div>
   }
 };
